@@ -18,3 +18,13 @@ SUBCONJUNTOS
 A c B -> A está contido em B
 
 Propriedade das potências e da radiciação
+
+Computacional thinking with Python
+Ascencio, AFG, Campos - fundamentos da programacao de computadores
+Nilo Menezes ,novatec, 
+Industria 4.0 
+Compiladores: spyder, colab, vs code
+
+Conceitos sobre algoritmos, fluxogramas e pseudocódigo
+Algoritmos: sequência de passos que visa atingir um objetivo bem definido (Forbellone, 1999)
+Pseudocódigo
