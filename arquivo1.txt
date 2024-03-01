@@ -1,1 +1,20 @@
-Edge Computing - aula 01
+Differentiated Problem Solving
+Liberação miofascial
+
+CONJUTOS
+Conjunto dos Naturais (N)
+Conjuto dos inteiros (Z)
+  Contém os números negativos e positivos.
+  Não são frações, mas podem ser representados como uma.
+  Contém os naturais 
+Conjunto dos Racionais (Q)
+  Todo número pode ser representado como uma fração, mas nem todos números são frações. 
+  Numerador e o denominador são números inteiros. 
+  Tem a razão 
+Conjunto dos Irracionais
+  Dízima periódica
+
+SUBCONJUNTOS
+A c B -> A está contido em B
+
+Propriedade das potências e da radiciação
