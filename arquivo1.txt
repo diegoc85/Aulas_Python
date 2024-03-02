@@ -66,3 +66,13 @@ if (media >7) & (frequencia >= 75):
     print('Aprovado!')
 else:
     print('Reprovado!')
+
+a = int(input('Digite o numero 1:'))
+b = int(input('Digite o número 2:'))
+
+if a > b:
+    print('O número 1 é maior')
+elif a == b: #estrutura intermediaria. Nem a primeira nem a ultima
+    print('Os números são iguais')
+else:
+    print('O número 2 é maior')
