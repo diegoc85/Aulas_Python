@@ -28,3 +28,41 @@ Compiladores: spyder, colab, vs code
 Conceitos sobre algoritmos, fluxogramas e pseudocódigo
 Algoritmos: sequência de passos que visa atingir um objetivo bem definido (Forbellone, 1999)
 Pseudocódigo
+
+# Estrutura 1 
+
+# Estrutura de entrada
+nota1 = 10
+nota2 = 8
+
+# Estrutura de processo
+media = (nota1 + nota2)/2
+
+# Estrutura de saída
+print('O valor da nota 1 é:', nota1)
+print('O valor da nota 2 é:', nota2)
+print('A média será:', media)
+
+# Estrutura 2 - Cálculo da média com inputs para o usuário
+
+nota_1 = int(input('Insira nota 1:'))
+nota_2 = int(input('Insira nota 2:'))
+media = (nota_1 + nota_2)/2
+
+if media > 7:
+    print('Aprovado! Sua média foi:', media)
+else:
+    print('Reprovado! Sua média foi:', media)
+
+#Construir algoritmo para mostrar se aluno está aprovado ou não usando notas (2 notas com média >7) e frequência (75%)
+# Estrutura 3 - Cálculo da média em função das notas e da frequência
+
+nota_1 = int(input('Insira a nota 1:'))
+nota_2 = int(input('Insira a nota 2:'))
+frequencia = int(input('Insira o valor da frequência:'))
+media = (nota_1 + nota_2)/2
+
+if (media >7) & (frequencia >= 75):
+    print('Aprovado!')
+else:
+    print('Reprovado!')
