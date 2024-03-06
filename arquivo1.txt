@@ -87,3 +87,4 @@ Site: behance
 figma
 Wireframes UI Kit
 pesquisa codigo fonte
+git clone e a url do code pra clonar do github pro git. Criar a pasta primeiro localmente e com o botão direito dentro da pasta desejada clicar em git bash here. 
