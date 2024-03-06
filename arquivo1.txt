@@ -76,3 +76,14 @@ elif a == b: #estrutura intermediaria. Nem a primeira nem a ultima
     print('Os números são iguais')
 else:
     print('O número 2 é maior')
+
+Front-end Design (06/03)
+https://www.w3schools.com/Css/css_colors_rgb.asp
+https://www.w3schools.com/Css/css_colors_hex.asp
+https://www.w3schools.com/Css/css_colors_hsl.asp
+Lightness -> tirar branco e colocar branco
+Hue -> círculo de cores
+Site: behance
+figma
+Wireframes UI Kit
+pesquisa codigo fonte
