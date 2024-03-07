@@ -91,3 +91,12 @@ git clone e a url do code pra clonar do github pro git. Criar a pasta primeiro l
 ls pra ver a pasta
 cd e dois tabs pra entrar dentro da pasta
 Depois abri o vs code com o atalho: code . 
+logonrmlocal@PA603MICRO06 MINGW64 /d/1ESPX/1ESPX-2024-Front-End (main)
+$ git config --global user.name "diegoc85"
+logonrmlocal@PA603MICRO06 MINGW64 /d/1ESPX/1ESPX-2024-Front-End (main)
+$ git config --global user.email "diegoc.spv85@gmail.com"
+Pra atualizar e mandar pro github -> clicar no icone do github no vs code
+Depois clicar no mais e changes, sincronizar
+
+
+
