@@ -103,7 +103,10 @@ git add . -> fazer o track de uma vez de todos os arquivos da pasta. O U ao lado
 não adicona o read me
 Ctrl + l pra limpar o terminal
 antes do commit colocar o global pra logar no git local com minhas credenciais 
-git log
+git log -> informação sobre o commit e seu código. 
+https://git-school.github.io/visualizing-git/
+git commit, git commit, git commit, e depois git revert mais o código do commit
+git reset --hard + codigo do commit até onde quer apagar os commits
 
 
 
