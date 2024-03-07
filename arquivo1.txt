@@ -98,5 +98,12 @@ $ git config --global user.email "diegoc.spv85@gmail.com"
 Pra atualizar e mandar pro github -> clicar no icone do github no vs code
 Depois clicar no mais e changes, sincronizar
 
+WEV DEV
+git add . -> fazer o track de uma vez de todos os arquivos da pasta. O U ao lado do arquivo passa pra A. 
+não adicona o read me
+Ctrl + l pra limpar o terminal
+antes do commit colocar o global pra logar no git local com minhas credenciais 
+git log
+
 
 
