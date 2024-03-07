@@ -107,6 +107,5 @@ git log -> informação sobre o commit e seu código.
 https://git-school.github.io/visualizing-git/
 git commit, git commit, git commit, e depois git revert mais o código do commit
 git reset --hard + codigo do commit até onde quer apagar os commits
-
-
+Se fizer alteração no arquivo, fazer o add no stage, depois commit e push
 
