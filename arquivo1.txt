@@ -113,9 +113,26 @@ Se fizer alteração no arquivo, fazer o add no stage, depois commit e push
 
 ---------------------------------------------------------------------------------------
 Edge Computing (07/03)
-Hard-coded: chumba valores na programação. Não é positivo. 
+Arduino R3 Uno
+Hard-coded: chumba (fixo) valores na programação. Não é positivo. 
 Debounce: gordurinha
 Sensores (digital e analógico):represenam entradas nos microcontroladores (input)
 Atuador (digital e analógico): representa uma saída para o arduíno (output), motor , dimmer. Será controlao, o arduíno mandará sinais. Leds. Relé
 Sensores analógicos: vários niveis (range), vários estados 
-Digiais: dois estados 
+Digiais: dois estados
+Tinkercad
+
+void setup()// uma vez config não muda mais
+{
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);//acionar a saida digital pin 10, o led
+  delay(1000); // Wait for 1000 millisecond(s) == 1s
+  digitalWrite(10, LOW); //desliga o led, low é desligar
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+// o led tem um lado certo pra ligar
+//perna maior positivo
