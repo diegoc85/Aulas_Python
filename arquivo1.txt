@@ -137,3 +137,13 @@ void loop()
 // o led tem um lado certo pra ligar
 //perna de l é positivo ou perna maior (anodo), Perna normal negativo (catodo) - -> GND (representa 0volts o lado negativo da pilha. Ground de terra) Resistor acima de 150 oms. Menos pode queimar. 
 Resistor de pull-down
+
+
+
+WEBDEV
+git add .
+git commit -m ""
+git config --global user.name
+git config -global user.email
+FORK -> quando quer fazer modificação no repositório. Depois clona. 
+git push
