@@ -148,3 +148,4 @@ git config -global user.email
 FORK -> quando quer fazer modificação no repositório de outra pessoa.Você vai no repositorio dela e faz o FORK. Depois clona, faz as modificações e faz o pull request solicitando ao dono que considere as alterações. Ele precisa autorizar.  
 git push
 git branch
+git push -u origin nova-branch
