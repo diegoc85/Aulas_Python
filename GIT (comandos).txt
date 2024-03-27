@@ -1,0 +1,33 @@
+GIT (comandos):
+
+git init
+----------
+O init é o primeiro dos comandos git que se usa para começar um repositório. Isto é, o que ele faz é transformar uma pasta com códigos no seu HD em uma pasta monitorada pelo git, que será carregada para a plataforma e estará visível para outras pessoas. Ou então cria um repositório novo, do zero. Exemplo: “git init”
+-----------
+git clone <url>
+git status
+git config --global user.name ""
+git config --global user.email ""
+git add <arquivo> ou git add . 
+git restore --staged <arquivo>
+git commit -m ""
+git push
+
+git branch "nova-branch"
+------------------------
+cria uma nova branch, mas sem sair da main
+------------------------
+git checkout -b nova-branch
+--------------------------
+cria uma nova branch e já muda para a nova branch
+--------------------------
+git push -u origin nova-branch
+-------------------------------
+fazer isso após criar a branch, fazer o primeiro commit e depois seu primeiro push. Depois pode dar push sem o -u. 
+--------------------------------
+git merge nova-branch
+--------------------------------
+sair da branch nova, depois ir pra main e fazer o merge. 
+
+git push -u origin main
+- fazer isso depois de dar o merge pra mandar as modificações da junção com a nova branch. Depois só dar pull. 
