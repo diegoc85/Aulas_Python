@@ -16,6 +16,9 @@ git push
 git branch "nova-branch"
 - cria uma nova branch, mas sem sair da main
 ---------------------------------------------------------
+git branch -b <nome da branch>
+- criar uma nova branch a partir da branch atual que estamos. 
+----------------------------------------------------------
 git checkout -b nova-branch
 - cria uma nova branch e já muda para a nova branch
 ---------------------------------------------------------
