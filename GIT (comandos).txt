@@ -40,3 +40,8 @@ git pull
 git branch -d <nome da branch>
 - deletar uma branch
 -----------------------------------------------------------
+git reset --hard origin/main
+- If your local changes are bad then just remove them or reset your local master to the state on remote
+-----------------------------------------------------------
+git diff master origin/master
+- to see changes you'll be removing
