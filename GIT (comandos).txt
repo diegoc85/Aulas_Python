@@ -14,20 +14,23 @@ git commit -m ""
 git push
 
 git branch "nova-branch"
-------------------------
-cria uma nova branch, mas sem sair da main
-------------------------
+- cria uma nova branch, mas sem sair da main
+---------------------------------------------------------
 git checkout -b nova-branch
---------------------------
-cria uma nova branch e já muda para a nova branch
---------------------------
+- cria uma nova branch e já muda para a nova branch
+---------------------------------------------------------
 git push -u origin nova-branch
--------------------------------
-fazer isso após criar a branch, fazer o primeiro commit e depois seu primeiro push. Depois pode dar push sem o -u. 
---------------------------------
+- fazer isso após criar a branch, fazer o primeiro commit e depois seu primeiro push. Depois pode dar push sem o -u. 
+----------------------------------------------------------
 git merge nova-branch
---------------------------------
-sair da branch nova, depois ir pra main e fazer o merge. 
-
+- sair da branch nova, depois ir pra main e fazer o merge. 
+----------------------------------------------------------
 git push -u origin main
-- fazer isso depois de dar o merge pra mandar as modificações da junção com a nova branch. Depois só dar pull. 
+- fazer isso depois de dar o merge pra mandar as modificações da junção com a nova branch. Depois só dar pull.
+----------------------------------------------------------
+git fetch
+- Você pode usar o comando git fetch para saber as alterações feitas no repositório ou na branch remota desde seu último uso do comando git pull. Isso é útil para permitir a verificação antes de fazer um pull de fato, que poderia alterar arquivos em sua branch e em sua cópia de trabalho atuais (e, potencialmente, fazer com que você perca suas alterações etc.).
+----------------------------------------------------------
+git pull
+- O git fetch baixa o conteúdo remoto e não altera o estado do repositório local. Já o git pull baixa o conteúdo remoto e, de imediato, tenta alterar o estado local para que ele corresponda àquele conteúdo. Isso pode causar um estado conflituoso acidental no repositório local.
+----------------------------------------------------------
