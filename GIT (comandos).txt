@@ -34,3 +34,6 @@ git fetch
 git pull
 - O git fetch baixa o conteúdo remoto e não altera o estado do repositório local. Já o git pull baixa o conteúdo remoto e, de imediato, tenta alterar o estado local para que ele corresponda àquele conteúdo. Isso pode causar um estado conflituoso acidental no repositório local.
 ----------------------------------------------------------
+git branch -d <nome da branch>
+- deletar uma branch
+-----------------------------------------------------------
