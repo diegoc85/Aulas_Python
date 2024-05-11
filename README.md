@@ -1,3 +1,1 @@
-# Primeiro projeto
- Primeiro projeto da disciplina de Web Dev
- Teste 1
+Aulas e Exercícios de Python da FIAP. 
